@@ -1,0 +1,10 @@
+Ace@DESKTOP-I5HJLAT MINGW64 /d/Git/SI_2023_lab1_211570 (master)
+$ git  log --oneline --graph
+* 160ae16 (HEAD -> master, origin/master, bug3) Fix method sumEvenNumbers
+*   8ce540e Merge branch 'bug2' abor the commit.
+|\
+| * 7245fd5 (bug2) Fix wrong condition in filterOddNumbers
+* | f1d69e7 (bug1) Fix wrong loop for reading
+|/
+* 84af381 (origin/main) Add java class
+* c85e5ed Initial commit

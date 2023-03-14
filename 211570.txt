@@ -1,0 +1,48 @@
+1. Прво правам $touch README.md што прави нов документ во репозиториумот
+2. Напишав име, презиме и индекс
+3. Потоа направив $git add README.md за да можам да направм commit со документот
+4. Направив $git commit -m "Initial commit"
+
+5. Направив $touch SILab1.java 
+6. Потоа во него го напишав наведениот код од GitHub
+7. Му направив $git add SILab1.java
+8. И потоа $git commit -m "Add java class"
+
+9. 
+- $git branch bug1
+- $git branch bug2
+- $git branch bug3
+
+10. $git checkout bug1
+11. Ја поправив грешката, го зачував проектот, потоа направив $git add bug1
+12. $git commit -m "Fix wrong loop for reading" 
+
+13. $git checkout bug2
+14. Ја поправив грешката, го зачував проектот, потоа направив $git add bug2
+15. $git commit -m "Fix wrong condition in filterOddNumbers"
+
+16. $git checkout bug2
+17. Ја поправив грешката, го зачував проектот, потоа направив $git add bug3
+18. $git commit -m "Fix method sumEvenNumbers"
+
+19. $git checkout master
+20. $git merge bug1
+21. $git push origin master
+
+22. $git checkout master
+23. $git merge bug2
+24. $git push origin master
+
+25. $git checkout bug3
+26. $git rebase master
+
+27. $git checkout master
+28. $git merge bug3
+29. $git push origin master
+
+30. Во $touch logs.txt ги прекопирав логовите
+31. $touch 211570.txt
+32. $git add .
+33. $git commit -m "Final commit"
+34. $git push origin master
+
